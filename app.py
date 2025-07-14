@@ -6,7 +6,8 @@ from predictor import predict_next_close
 
 st.set_page_config(page_title="AI Stock Analyzer", layout="wide")
 st.title("📈 AI Stock Analyzer & Predictor")
-st.markdown("Enter stock tickers (e.g., `AAPL`, `TSLA`, `INFY.NS`) separated by commas:")
+st.markdown("Enter stock tickers (e.g., `AAPL`, `TSLA`, `INFY.NS`, `BTC-USD`, `ETH-USD`) separated by commas:")
+
 
 tickers = st.text_input("Stock Tickers", value="AAPL, TSLA")
 
